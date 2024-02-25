@@ -134,6 +134,7 @@ def lector_cours_rating(lektors, cours):
         return "Ошибка"
     else:
         return sum(grades_list)/len(grades_list)
+
 student_1 = Student("Ivan", "Ivanov", "male")
 student_2 = Student("Semen", "Falaleev", "male")
 reviewer_1 = Reviewer("Oleg", "Buligin")
